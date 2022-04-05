@@ -16,6 +16,22 @@ Matrix Matrix::operator-(){
     return *this;
 }
 
+Matrix& Matrix::operator++(){
+    return *this;
+} 
+
+Matrix& Matrix::operator--(){
+    return *this;
+}
+
+Matrix Matrix::operator++(int inc){
+    return *this;
+}
+
+Matrix Matrix::operator--(int dec){
+    return *this;
+}
+
 Matrix Matrix::operator+(const int num){
     return *this;
 }
