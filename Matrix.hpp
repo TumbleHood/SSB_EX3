@@ -15,6 +15,12 @@ namespace zich{
             Matrix operator+();
             Matrix operator-();
 
+            Matrix& operator++();
+            Matrix& operator--();
+
+            Matrix operator++(int);
+            Matrix operator--(int);
+
             Matrix operator+(const int);
             Matrix operator-(const int);
             Matrix operator*(const int);
